@@ -1,9 +1,9 @@
 # Gigabyte-B760M-GAMING-DDR4-Hackintosh
 Hackintosh EFI for Gigabyte B760M GAMING DDR4
 ## Software
-|  macOS     |Monterey 12.6.7   |
+|  macOS     |Ventura 13.7   |
 | :------------- |-------------| 
-|OpenCore    |  0.9.2  | 
+|OpenCore    |  1.0.3  | 
 
 
 
