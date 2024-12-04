@@ -33,7 +33,6 @@ Hackintosh EFI for Gigabyte B760M GAMING DDR4
 <summary><strong>What's not working ⚠️</strong></summary>
 
 
-- [ ] CPU temperature monitoring - works in Intel Power Gadget, but not in monitoring software like stats (works after upgraded to [lilu](https://github.com/acidanthera/Lilu) 1.6.7, due to my i5-13400 with C0 stepping)
 - [ ] Wifi/Bluetooth - get a Broadcom card for Wifi (Caution: Wifi may not working with VT-d on)
 - [ ] Sleep/Wake - sometimes not waking up from sleep
 
