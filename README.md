@@ -1,54 +1,43 @@
-# Gigabyte-B760M-GAMING-DDR4-Hackintosh
-Hackintosh EFI for Gigabyte B760M GAMING DDR4
+# Gigabyte B760M D2H OpenCore Config
+
+Please reset SMBIOS before use
+
 ## Software
-|  macOS     |Ventura 13.7   |
-| :------------- |-------------| 
-|OpenCore    |  1.0.3  | 
+| Name     | Version      |
+| -----    | -------      |
+| macOS    | Ventura 15.7 |
+| OpenCore | 1.0.5        | 
 
 
 
 ## Hardware
-| Motherboard   |Gigabyte B760M GAMING DDR4  |
-| ------------- |-------------| 
-|CPU    | i5-13400  | 
-|RAM    | 16G*2 DDR4 3200  | 
-|GPU    | XFX RX5700  | 
-|SSD    |   Sandisk 480G SATA SSD   |
-|Ethernet    | RTL8125BG  | 
-|Audio codec   | ALC897  | 
+| Name          | Model                |
+| ------------- | -------------      | 
+| Motherboard   | Gigabyte B760M D2H |
+| CPU           | i5-12400           | 
+| RAM           | 16G*2 DDR4 3200    | 
+| GPU           | RX560              | 
+| SSD           | ZHITAI Ti600       |
+| Wireless      | BCM 94360CD        |
 
 
 ## Status
 
 <summary><strong>What's working ✅</strong></summary>
 
-- [x] OpenCore GUI
-- [x] Window 10 dual boot
 - [x] Ethernet
+- [x] Wifi/Bluetooth
 - [x] USB Mapping
 - [x] GPU temperature monitoring
 - [x] NVMe drives
 - [x] Audio
-
-<summary><strong>What's not working ⚠️</strong></summary>
-
-
-- [ ] Wifi/Bluetooth - get a Broadcom card for Wifi (Caution: Wifi may not working with VT-d on)
-- [ ] Sleep/Wake - sometimes not waking up from sleep
-
-<summary><strong>Untested ❔</strong></summary>
-
-
-- [ ] iMessage, FaceTime, App Store, iTunes Store
-- [ ] CPU power management - TODO: try CpuFriend.kext
-
+- [x] Sleep/Wake
 
 ## BIOS setting
 ### Enable:
 * Above 4G Decoding
 * XHCI Hand-off
 * VT-d
-
 
 ### Disable:
 * Fast Boot
