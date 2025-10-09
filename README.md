@@ -31,7 +31,6 @@ Please reset SMBIOS before use
 - [x] GPU temperature monitoring
 - [x] NVMe drives
 - [x] Audio
-- [x] Sleep/Wake
 
 ## BIOS setting
 ### Enable:
